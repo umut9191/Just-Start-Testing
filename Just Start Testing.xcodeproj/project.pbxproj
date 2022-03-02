@@ -15,6 +15,7 @@
 		9E1A95792474C96F0010ADDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E1A95772474C96F0010ADDC /* LaunchScreen.storyboard */; };
 		9E1A95812474CBD70010ADDC /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A95802474CBD70010ADDC /* UIViewController+Extensions.swift */; };
 		9E1A95832474CCF20010ADDC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A95822474CCF20010ADDC /* User.swift */; };
+		E22935A927CFFB9900411230 /* ValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22935A827CFFB9900411230 /* ValidationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9E1A957A2474C96F0010ADDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E1A95802474CBD70010ADDC /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		9E1A95822474CCF20010ADDC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E22935A827CFFB9900411230 /* ValidationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				9E1A957A2474C96F0010ADDC /* Info.plist */,
 				9E1A95802474CBD70010ADDC /* UIViewController+Extensions.swift */,
 				9E1A95822474CCF20010ADDC /* User.swift */,
+				E22935A827CFFB9900411230 /* ValidationService.swift */,
 			);
 			path = "Just Start Testing";
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			files = (
 				9E1A95812474CBD70010ADDC /* UIViewController+Extensions.swift in Sources */,
 				9E1A95712474C96E0010ADDC /* ViewController.swift in Sources */,
+				E22935A927CFFB9900411230 /* ValidationService.swift in Sources */,
 				9E1A956D2474C96E0010ADDC /* AppDelegate.swift in Sources */,
 				9E1A95832474CCF20010ADDC /* User.swift in Sources */,
 				9E1A956F2474C96E0010ADDC /* SceneDelegate.swift in Sources */,
