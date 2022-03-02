@@ -16,7 +16,25 @@
 		9E1A95812474CBD70010ADDC /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A95802474CBD70010ADDC /* UIViewController+Extensions.swift */; };
 		9E1A95832474CCF20010ADDC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A95822474CCF20010ADDC /* User.swift */; };
 		E22935A927CFFB9900411230 /* ValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22935A827CFFB9900411230 /* ValidationService.swift */; };
+		E22935C527D00CFA00411230 /* ValidationServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22935C427D00CFA00411230 /* ValidationServiceTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E22935B227D00B2200411230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E1A95612474C96E0010ADDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E1A95682474C96E0010ADDC;
+			remoteInfo = "Just Start Testing";
+		};
+		E22935BF27D00BDA00411230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E1A95612474C96E0010ADDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E1A95682474C96E0010ADDC;
+			remoteInfo = "Just Start Testing";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9E1A95692474C96E0010ADDC /* Just Start Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Just Start Testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,10 +48,27 @@
 		9E1A95802474CBD70010ADDC /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		9E1A95822474CCF20010ADDC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E22935A827CFFB9900411230 /* ValidationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationService.swift; sourceTree = "<group>"; };
+		E22935AE27D00B2200411230 /* Just Start TestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Just Start TestingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22935BB27D00BDA00411230 /* Just Start Testing Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Just Start Testing Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22935C427D00CFA00411230 /* ValidationServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9E1A95662474C96E0010ADDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22935AB27D00B2200411230 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22935B827D00BDA00411230 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				9E1A956B2474C96E0010ADDC /* Just Start Testing */,
+				E22935BC27D00BDA00411230 /* Just Start Testing Tests */,
 				9E1A956A2474C96E0010ADDC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				9E1A95692474C96E0010ADDC /* Just Start Testing.app */,
+				E22935AE27D00B2200411230 /* Just Start TestingTests.xctest */,
+				E22935BB27D00BDA00411230 /* Just Start Testing Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,6 +112,14 @@
 				E22935A827CFFB9900411230 /* ValidationService.swift */,
 			);
 			path = "Just Start Testing";
+			sourceTree = "<group>";
+		};
+		E22935BC27D00BDA00411230 /* Just Start Testing Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E22935C427D00CFA00411230 /* ValidationServiceTests.swift */,
+			);
+			path = "Just Start Testing Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,18 +142,62 @@
 			productReference = 9E1A95692474C96E0010ADDC /* Just Start Testing.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E22935AD27D00B2200411230 /* Just Start TestingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E22935B427D00B2200411230 /* Build configuration list for PBXNativeTarget "Just Start TestingTests" */;
+			buildPhases = (
+				E22935AA27D00B2200411230 /* Sources */,
+				E22935AB27D00B2200411230 /* Frameworks */,
+				E22935AC27D00B2200411230 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E22935B327D00B2200411230 /* PBXTargetDependency */,
+			);
+			name = "Just Start TestingTests";
+			productName = "Just Start TestingTests";
+			productReference = E22935AE27D00B2200411230 /* Just Start TestingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E22935BA27D00BDA00411230 /* Just Start Testing Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E22935C127D00BDA00411230 /* Build configuration list for PBXNativeTarget "Just Start Testing Tests" */;
+			buildPhases = (
+				E22935B727D00BDA00411230 /* Sources */,
+				E22935B827D00BDA00411230 /* Frameworks */,
+				E22935B927D00BDA00411230 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E22935C027D00BDA00411230 /* PBXTargetDependency */,
+			);
+			name = "Just Start Testing Tests";
+			productName = "Just Start Testing Tests";
+			productReference = E22935BB27D00BDA00411230 /* Just Start Testing Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		9E1A95612474C96E0010ADDC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1140;
+				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Kilo Loco";
 				TargetAttributes = {
 					9E1A95682474C96E0010ADDC = {
 						CreatedOnToolsVersion = 11.4.1;
+					};
+					E22935AD27D00B2200411230 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 9E1A95682474C96E0010ADDC;
+					};
+					E22935BA27D00BDA00411230 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 9E1A95682474C96E0010ADDC;
 					};
 				};
 			};
@@ -125,6 +215,8 @@
 			projectRoot = "";
 			targets = (
 				9E1A95682474C96E0010ADDC /* Just Start Testing */,
+				E22935AD27D00B2200411230 /* Just Start TestingTests */,
+				E22935BA27D00BDA00411230 /* Just Start Testing Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +229,20 @@
 				9E1A95792474C96F0010ADDC /* LaunchScreen.storyboard in Resources */,
 				9E1A95762474C96F0010ADDC /* Assets.xcassets in Resources */,
 				9E1A95742474C96E0010ADDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22935AC27D00B2200411230 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22935B927D00BDA00411230 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,7 +262,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E22935AA27D00B2200411230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22935B727D00BDA00411230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22935C527D00CFA00411230 /* ValidationServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E22935B327D00B2200411230 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E1A95682474C96E0010ADDC /* Just Start Testing */;
+			targetProxy = E22935B227D00B2200411230 /* PBXContainerItemProxy */;
+		};
+		E22935C027D00BDA00411230 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E1A95682474C96E0010ADDC /* Just Start Testing */;
+			targetProxy = E22935BF27D00BDA00411230 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9E1A95722474C96E0010ADDC /* Main.storyboard */ = {
@@ -297,13 +431,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5K99777NES;
+				DEVELOPMENT_TEAM = PUS3AGYD85;
 				INFOPLIST_FILE = "Just Start Testing/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kiloloco.Just-Start-Testing";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umut.surmeli.Just-Start-Testing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,16 +449,100 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5K99777NES;
+				DEVELOPMENT_TEAM = PUS3AGYD85;
 				INFOPLIST_FILE = "Just Start Testing/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kiloloco.Just-Start-Testing";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umut.surmeli.Just-Start-Testing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E22935B527D00B2200411230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PUS3AGYD85;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umut.surmeli.Just-Start-TestingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Just Start Testing.app/Just Start Testing";
+			};
+			name = Debug;
+		};
+		E22935B627D00B2200411230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PUS3AGYD85;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umut.surmeli.Just-Start-TestingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Just Start Testing.app/Just Start Testing";
+			};
+			name = Release;
+		};
+		E22935C227D00BDA00411230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PUS3AGYD85;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umut.surmeli.Just-Start-Testing-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Just Start Testing.app/Just Start Testing";
+			};
+			name = Debug;
+		};
+		E22935C327D00BDA00411230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PUS3AGYD85;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umut.surmeli.Just-Start-Testing-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Just Start Testing.app/Just Start Testing";
 			};
 			name = Release;
 		};
@@ -345,6 +563,24 @@
 			buildConfigurations = (
 				9E1A957E2474C96F0010ADDC /* Debug */,
 				9E1A957F2474C96F0010ADDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E22935B427D00B2200411230 /* Build configuration list for PBXNativeTarget "Just Start TestingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22935B527D00B2200411230 /* Debug */,
+				E22935B627D00B2200411230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E22935C127D00BDA00411230 /* Build configuration list for PBXNativeTarget "Just Start Testing Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22935C227D00BDA00411230 /* Debug */,
+				E22935C327D00BDA00411230 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
